@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block i %}
+{% load static %}
+
+<div class="dashboard">
+
+
+    <div class="show-row">
+        <form method="post" id="my-form">
+            {% csrf_token %}
+            {{ form }}
+        </form>
+    </div>
+
+    <div class="sensor-info">
+        <div class="sensor-data">
+
+            <div class="sensor-property">
+                    <img id="Temperature-logo" src="{% static 'images/temp.png' %}" alt="Temperature Image">
+
+                <div class="details">
+                <span class="temp" >Temperature {{ valeurs.temp }}°C</span>
+
+                <span> {{ valeurs.date }}</span>
+                </div>
+
+            </div>
+            <div class="sensor-property">
+                <img id="Humidity-logo" src="{% static 'images/hum.png' %}" alt="Humidity Image">
+
+                <div class="details">
+                <span class="temp">Humidity {{ valeurs.hum }}%</span>
+                <span> {{ valeurs.date }}</span>
+            </div>
+                            </div>
+
+
+        </div>
+    </div>
+
+</div>
+
+{% endblock i %}

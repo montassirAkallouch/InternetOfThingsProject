@@ -1,0 +1,98 @@
+
+    body, h1, h2, h3, p, ul, li {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+    }
+
+    .dashboard {
+        max-width: 1000px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    h3 {
+        color: #333;
+    }
+
+    .show-row {
+        margin-bottom: 20px;
+    }
+
+    .sensor-info {
+    padding: 15px;
+    border-radius: 8px;
+}
+
+    .sensor-data {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+    .sensor-property {
+    flex-basis: 43%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    transition: background-color 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+    .sensor-property:hover {
+        background-color: #f5f5f5;
+    }
+
+    .sensor-property span {
+        display: block;
+        margin-bottom: 10px;
+        color: #333;
+        font-size: 14px;
+    }
+
+    .sensor-property img {
+        max-width: 33%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+
+    #Temperature-logo {
+        border: 2px solid #ff000085;
+        padding: 10px;
+    }
+
+    #Humidity-logo {
+        border: 2px solid #00cbff;
+        padding: 10px;
+    }
+
+    span.temp {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .sensor-property {
+            flex-basis: 100%;
+        }
+    }
+
+

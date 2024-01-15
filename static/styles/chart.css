@@ -1,0 +1,96 @@
+
+    .chart-page {
+        padding: 0;
+    }
+
+    /* Styles for the navigation bar */
+    .navb {
+    background-color: #66757e;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    z-index: 1000;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+    .navb button {
+    color: #ffffff;
+    background-color: #00000054;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    /* box-shadow: -3px -3px; */
+    cursor: pointer;
+    transition: background-color 0.3s cubic-bezier(0.25, 0.1, 0.27, 0.93);
+}
+
+    .navb button:hover {
+    background-color: #000000;
+}
+
+
+  .navb button:focus {
+    background-color: #000000;
+}
+
+    /* Styles for the chart containers */
+
+    .graph-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    flex-direction: row;
+    align-content: center;
+}
+
+    /* Styles for individual chart containers */
+    .graphique {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+    width: calc(600px);
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+    .graphique:hover {
+        transform: translateY(-5px);
+    }
+
+    /* Styles for canvas elements */
+    canvas {
+        width: 100%;
+        border: none;
+    }
+
+    #graphique-temp{
+
+    }
+
+    #graphique-hum{
+
+    }
+
+    /* Styles for the line charts with a more professional look */
+    .graphique canvas {
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        transition: box-shadow 0.3s ease;
+    }
+
+    .graphique:hover canvas {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+

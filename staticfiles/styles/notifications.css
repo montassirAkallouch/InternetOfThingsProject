@@ -1,0 +1,39 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Style for table cells */
+td {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Style for the spans */
+#span1 {
+    color: black;
+    font-weight: bold;
+}
+
+#span2 {
+    color: black;
+}
+
+/* Style for alternating rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

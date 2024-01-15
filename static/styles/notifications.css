@@ -1,0 +1,36 @@
+#notifications-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+    #one-notification {
+    margin-bottom: 3px;
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+    #one-notification:hover {
+        transform: translateY(-5px);
+    }
+
+    #span1 {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: -9px;
+}
+
+    #span2 {
+    color: #555;
+    font-size: 14px;
+}

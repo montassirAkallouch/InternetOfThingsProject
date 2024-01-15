@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles/index.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
+
+    <title>IOT PROJECT</title>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <a href="/"><img  id="LOGO" src="{% static 'images/LOGO.png' %}" alt="Capteur Image"></a>
+
+
+
+            <ul id="ul1">
+                <li><a href="/">HOME</a></li>
+                <li><a href="/graphique/">CHART</a></li>
+                <li><a href="/download_csv/">DOWNLOAD</a></li>
+            </ul>
+
+            <ul id="ul2">
+                <li><a href="/about/" id="about">ABOUT</a></li>
+                <a href="/notifications/"><img id="notify" src="{% static 'images/ring.png' %}" alt="notification"></a>
+            </ul>
+
+
+        </nav>
+    </div>
+
+</body>
+</html>

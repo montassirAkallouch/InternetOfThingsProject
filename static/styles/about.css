@@ -1,0 +1,22 @@
+
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5%;
+}
+.about-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 8px;
+}
+
+.section-title {
+    color: #1fa5cf;
+}
+
+.section-content {
+    color: #000;
+}

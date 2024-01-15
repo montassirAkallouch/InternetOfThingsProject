@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block i %}
+
+<main>
+    <section id="our-story" class="about-section">
+        <h2 class="section-title">DESCRIPTION</h2>
+        <p class="section-content"><br>Our project, focuses on temperature and humidity measurement using DHT11 sensors connected to an Arduino.<br><br>The collected data is seamlessly transmitted to a Django application hosted on PythonAnywhere, facilitating remote monitoring.<br><br>This intelligent system incorporates a sophisticated alerting mechanism; if the temperature or humidity values surpass predefined thresholds, the Django application triggers alerts through multiple channels, including SMS, WhatsApp, Telegram, and email.<br><br>The hardware components, such as the Arduino board and DHT11 sensors, work in tandem with the software architecture, creating a reliable and efficient system.<br><br>By hosting the Django application on PythonAnywhere, the project achieves accessibility and real-time monitoring capabilities.<br><br>The comprehensive solution not only provides valuable environmental data but also ensures prompt notification and response in case of critical deviations from the specified conditions.<br></p>
+    </section>
+
+
+</main>
+
+
+{% endblock %}

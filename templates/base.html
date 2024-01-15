@@ -1,0 +1,16 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'styles/index.css' %}">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+<link rel="stylesheet" href="{% static 'styles/about.css' %}">
+
+<link rel="stylesheet" href="{% static 'styles/table.css' %}">
+
+<link rel="stylesheet" href="{% static 'styles/chart.css' %}">
+
+<link rel="stylesheet" href="{% static 'styles/notifications.css' %}">
+{% include 'index.html' %}
+{% block i %}
+{% endblock %}

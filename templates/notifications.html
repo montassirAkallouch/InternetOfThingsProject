@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block i %}
+
+<ul id="notifications-list">
+{% for i in valeurs %}
+
+    <li id="one-notification">
+        <span  id="span1" style="color: black">New alert sent {{i.date}}</span><br>
+        <span id="span2" style="color: black">Temperature : {{i.temp}}°C and Humidity : {{i.hum}}% </span>
+    </li>
+
+    {% endfor %}
+</ul>
+
+
+{% endblock i %}
